@@ -54,7 +54,7 @@ export type CheckInSchedule = z.infer<typeof CheckInScheduleSchema>;
 
 export function analyzeCheckIn(checkIn: PostpartumCheckIn): PostpartumAlert {
   const triggers: PostpartumAlert['triggers'] = [];
-  let maxSeverity: PostpartumAlert['severity'] = 'routine';
+  let maxSeverity = 'routine' as PostpartumAlert['severity'];
   const r = checkIn.responses;
 
   // Hemorrhage warning signs
