@@ -6,7 +6,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/cost-Free_Forever-green" alt="Free">
-  <img src="https://img.shields.io/badge/status-Active-brightgreen" alt="Active">
+  <img src="https://img.shields.io/badge/status-Prototype-yellow" alt="Prototype">
   <img src="https://img.shields.io/badge/WHO_target-75%25_reduction_by_2030-10b981" alt="WHO 2030">
   <img src="https://img.shields.io/badge/racial_disparity-3x_Black_women-ef4444" alt="3x Disparity">
   <a href="https://mama.oliwoods.ai"><img src="https://img.shields.io/badge/Built_with-MAMA-8b5cf6" alt="Built with MAMA"></a>
@@ -14,6 +14,17 @@
 </p>
 
 ---
+
+---
+
+## Status / Honesty
+
+This repository is a **prototype library** under the Mama Foundation (Scheme C). It is **not** production clinical software, **not** HIPAA certified, and **not** cleared for care delivery.
+
+- Maturity: **Prototype**
+- Portal path: [https://mama.oliwoods.ai/foundation/safe-birth](https://mama.oliwoods.ai/foundation/safe-birth)
+- See [MAMA-MSTR#959](https://github.com/OliWoods-Org/MAMA-MSTR/issues/959)
+
 
 > **800 women die every day from complications of pregnancy and childbirth — 99% of them in low- and middle-income countries, from causes we know how to prevent.** In the United States specifically, the maternal mortality rate is 23.8 per 100,000 — three times higher than the UK, five times higher than Norway — and Black women die at 2.6x the rate of white women regardless of education or income. The leading causes are hemorrhage, hypertensive disorders, and sepsis: all detectable, all treatable with early intervention. **This library is the early intervention: AI risk-scoring that identifies high-risk pregnancies before complications develop, prenatal monitoring that works in low-bandwidth settings, and a racial disparity correction layer that actively counters the documented bias in existing clinical risk tools.** Because the data showing who is at risk is there — it just isn't being acted on.
 
